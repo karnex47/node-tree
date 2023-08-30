@@ -1,0 +1,29 @@
+{
+  "name": "node-tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "components": "^0.1.0",
+    "lodash": "^4.17.21",
+    "module-alias": "^2.2.2",
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "node-sass": "^5.0.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "typescript": "^4.1.3",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

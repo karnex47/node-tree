@@ -1,0 +1,18 @@
+.socket {
+    list-style: none;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: green;
+    margin: 0.5rem 0;
+    display: block;
+    position: relative;
+    z-index: 2;
+    .draggable-socket {
+        background-color: green;
+        padding: 0.5rem;
+        border-radius: 50%;
+        opacity: 1;
+        position: relative;
+        z-index: 2;
+    }
+}

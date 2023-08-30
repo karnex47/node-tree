@@ -1,0 +1,32 @@
+.node {
+    position: absolute;
+    z-index: 1;
+    border: 1px solid;
+    background-color: white;
+    padding: 1rem;
+    resize: both;
+    overflow: visible;
+    display: flex;
+    flex-flow: row nowrap;
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .in-sockets, .out-sockets {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        overflow: visible;
+        z-index: 2;
+    }
+    .in-sockets {
+        justify-self: flex-start;
+        left: -1.6rem;
+    }
+    .out-sockets {
+        justify-self: flex-end;
+        right: -1.6rem;
+    }
+}
